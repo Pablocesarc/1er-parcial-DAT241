@@ -1,0 +1,10 @@
+C:\Users\PABLO\Desktop\dat241\WindowsFormsApplication11\WindowsFormsApplication11\obj\Debug\exa.csprojAssemblyReference.cache
+C:\Users\PABLO\Desktop\dat241\WindowsFormsApplication11\WindowsFormsApplication11\obj\Debug\WindowsFormsApplication11.Form1.resources
+C:\Users\PABLO\Desktop\dat241\WindowsFormsApplication11\WindowsFormsApplication11\obj\Debug\WindowsFormsApplication11.Form2.resources
+C:\Users\PABLO\Desktop\dat241\WindowsFormsApplication11\WindowsFormsApplication11\obj\Debug\WindowsFormsApplication11.Properties.Resources.resources
+C:\Users\PABLO\Desktop\dat241\WindowsFormsApplication11\WindowsFormsApplication11\obj\Debug\exa.csproj.GenerateResource.cache
+C:\Users\PABLO\Desktop\dat241\WindowsFormsApplication11\WindowsFormsApplication11\obj\Debug\exa.csproj.CoreCompileInputs.cache
+C:\Users\PABLO\Desktop\dat241\WindowsFormsApplication11\WindowsFormsApplication11\obj\Debug\WindowsFormsApplication11.exe
+C:\Users\PABLO\Desktop\dat241\WindowsFormsApplication11\WindowsFormsApplication11\obj\Debug\WindowsFormsApplication11.pdb
+C:\Users\PABLO\Desktop\dat241\WindowsFormsApplication11\WindowsFormsApplication11\bin\Debug\WindowsFormsApplication11.exe
+C:\Users\PABLO\Desktop\dat241\WindowsFormsApplication11\WindowsFormsApplication11\bin\Debug\WindowsFormsApplication11.pdb
