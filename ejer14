@@ -1,9 +1,9 @@
 OPENMP se basa en la programación paralela de memoria compartida, donde varios hilos de ejecución comparten el mismo espacio de memoria
-OPENMP es SISD pero tambien es MISD , ya que múltiples hilos ejecutan el mismo conjunto de instrucciones en un mismo almacenamiento de datos, pero tambien se puede configurar
-para que se haga mutliples instrucciones en un mismo almacenamiento de datos
+OPENMP es SISD pero tambien es SISD , ya que múltiples hilos ejecutan el mismo conjunto de instrucciones en un mismo almacenamiento de datos
 
 MPI MPI se utiliza para la programación paralela de paso de mensajes donde varios procesos ejecutan códigos independientes y se comunican intercambiando mensajes.
-MPI se clasifica como MIMD, ya que cada proceso puede ejecutar diferentes instrucciones en diferentes conjuntos de datos.
+MPI se clasifica como MISD, ya que cada proceso puede ejecutar diferentes instrucciones en diferentes conjuntos de datos.
 
 Multiprocessing permite crear y gestionar procesos independientes que pueden ejecutarse en paralelo.
-Por lo tanto, la clasificación de Multiprocessing es MIMD debido a que ejecuta multiples instrucciones utilizando varios almacenamiento de datos
+Por lo tanto, la clasificación de Multiprocessing es SIMD debido a que ejecuta simples instrucciones utilizando varios datas
+pero tambien es SISD ya que tambien solo puede manejarse con un solo data
