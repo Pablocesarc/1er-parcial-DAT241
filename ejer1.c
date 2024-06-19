@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 float suma(float *num1, float *num2) {
@@ -22,7 +23,7 @@ float division(float *num1, float *num2) {
     
     while (temp_num1 >= *num2) {
         temp_num1 = resta(&temp_num1, num2);
-        resultado = suma(&resultado, &temp_num1);
+        resultado ++;
     }
     
     return resultado;
