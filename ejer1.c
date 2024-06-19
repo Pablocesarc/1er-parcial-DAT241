@@ -11,7 +11,7 @@ float resta(float *num1, float *num2) {
 float multiplicacion(float *num1, float *num2) {
     float resultado = 0;
     for (int i = 0; i < (int)(*num2); i++) {
-        resultado += *num1;
+        resultado = suma(&resultado, num1);
     }
     return resultado;
 }
@@ -19,10 +19,12 @@ float multiplicacion(float *num1, float *num2) {
 float division(float *num1, float *num2) {
     float resultado = 0;
     float temp_num1 = *num1;
+    
     while (temp_num1 >= *num2) {
-        temp_num1 -= *num2;
-        resultado++;
+        temp_num1 = resta(&temp_num1, num2);
+        resultado = suma(&resultado, &temp_num1);
     }
+    
     return resultado;
 }
 
